@@ -1,84 +1,55 @@
-baseURL = "https://example.com"
-languageCode = "en-us"
+baseurl = "https://www.example.org/"
 title = "Tanya Murphy"
-theme = "hugo-theme-cactus"
-copyright = "Tanya Murphy" # cactus will use title if copyright is not set
-disqusShortname = "tanya_murphy" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
+copyright = "Copyright &copy; 2020 - Tanya Murphy"
+canonifyurls = true
+theme = "hugo-kiera"
 
+paginate = 3
 
-# summaryLength = 2
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
 
-# Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+#disqusShortname = "myShortName"
 
-[[menu.main]]
-name = "Posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    name = "Tanya Murphy"
+    github = "tanya_murphy"
+    #gitlab = "username"
+    #linkedin = "username"
+    #facebook = "username"
+    twitter = "tmurphEpi"
+    #instagram = "username"
+    #stackoverflow = "username"
+    #youtube = "user/username" # or channel/channelname
+    #devto = "username"
 
 [params]
+    tagline = "A Hugo theme for creative and technical writing"
+    description = "Kiera: A Hugo theme for creative and technical writing."
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    #favicon = ""
+    #utterancesRepo = "username/repository"
+    #utterancesIssueTerm = "pathname"
+    #homepageLength = 10
+    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
+    #google_fonts = ["Staatliches"] # Adds additional google fonts
+    #disableDarkModeCSS = false # disables css style for users using dark-mode
 
-  colortheme = "white" # dark, light, white, or classic
-  rss = false # generate rss feed. default value is false
-  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+# uncomment to enable the Tags link on the main toolbar
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 1
 
-  # Home page settings
-  description = "Life is messy! but that makes population sciences fun. Or so I'll try to convince you with these posts on data analysis in R and epidemiology miscellany."
-  mainSection = "posts" # your main section
-  showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
-  showProjectsList = false # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/gohugoio" # title link for projects list
-
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
-
-  # Post page settings
-  show_updated = true # default
-
-  [params.comments]
-    enabled = true # default = false
-    engine = "disqus" # more supported engines will be added.
-
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/TanyaMurphy"
-  [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/tmurphEpi"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/tanya-murphy-8298a457/"
-  [[params.social]]
-    name = "scholar"
-    link = "https://scholar.google.ca/citations?hl=en&user=ZTnPBaoAAAAJ&view_op=list_works&sortby=pubdate"
-  [[params.social]]
-    name = "email"
-    link = "tanya.murphy@mail.mcgill.ca"  # no need for "mailto:" in the head
-
-[markup.goldmark.renderer]
-  unsafe= true
-  
+# uncomment to enable the Categories link on the main toolbar
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 1
