@@ -4,23 +4,23 @@ title: Tanya Murphy
 theme: liva-hugo
 summaryLength: '10'
 paginate: 6
-disqusShortname: ''
+disqusShortname: 'tanya_murphy'
 outputs:
   home:
     - HTML
     - RSS
     - JSON
 params:
-  author: Themefisher
+  author: Tanya Murphy
   cookies:
     enable: no
     expire_days: 2
   copyright: '| copyright &copy; 2020 Tanya Murphy | Designed with [blogdown](https://bookdown.org/yihui/blogdown/), [Hugo](https://gohugo.io/), and [Liva theme](https://themes.gohugo.io/liva-hugo/)'
   description: This is meta description
-  email: demo@email.com
+  email: tanya.j.murphy@gmail.com
   googleAnalitycsID: 
   home: Home
-  #location: Dhaka, Bangladedsh
+  #location: Montreal, Canada
   logo: images/logo_vsmall.png
   #mobile: 0124857985320
   newsletter:
@@ -50,17 +50,17 @@ params:
     enable: yes
   social:
     - icon: ti-twitter-alt
-      link: '#'
+      link: 'https://twitter.com/tmurphEpi'
       title: twitter
     - icon: ti-github
-      link: '#'
+      link: 'https://github.com/TanyaMurphy'
       title: github
     - icon: ti-linkedin
-      link: '#'
+      link: 'https://www.linkedin.com/in/tanya-murphy-8298a457/'
       title: linkedin
     - icon: ti-book
       link: 'https://scholar.google.ca/citations?hl=en&user=ZTnPBaoAAAAJ&view_op=list_works&sortby=pubdate'
-      title: google scholar
+      title: publications (google scholar)
 menu:
   footer:
     - URL: about
