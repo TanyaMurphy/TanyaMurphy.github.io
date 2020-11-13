@@ -1,0 +1,82 @@
+baseURL: https://examplesite.com
+languageCode: en-us
+title: Tanya Murphy
+theme: liva-hugo
+summaryLength: '10'
+paginate: 6
+disqusShortname: ''
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  author: Themefisher
+  cookies:
+    enable: no
+    expire_days: 2
+  copyright: '| copyright &copy; 2020 Tanya Murphy | Designed with [blogdown](https://bookdown.org/yihui/blogdown/), [Hugo](https://gohugo.io/), and [Liva theme](https://themes.gohugo.io/liva-hugo/)'
+  description: This is meta description
+  email: demo@email.com
+  googleAnalitycsID: 
+  home: Home
+  #location: Dhaka, Bangladedsh
+  logo: images/logo_vsmall.png
+  #mobile: 0124857985320
+  newsletter:
+    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      At vero
+    enable: no
+    title: Join Our Newsletter
+  plugins:
+    css:
+      - URL: plugins/bootstrap/bootstrap.min.css
+      - URL: plugins/slick/slick.css
+      - URL: plugins/themify-icons/themify-icons.css
+      - URL: plugins/venobox/venobox.css
+    js:
+      - URL: plugins/jQuery/jquery.min.js
+      - URL: plugins/bootstrap/bootstrap.min.js
+      - URL: plugins/slick/slick.min.js
+      - URL: plugins/venobox/venobox.min.js
+      - URL: plugins/search/fuse.min.js
+      - URL: plugins/search/mark.js
+      - URL: plugins/search/search.js
+  preloader:
+    enable: yes
+    preloader: ''
+  search:
+    enable: yes
+  social:
+    - icon: ti-twitter-alt
+      link: '#'
+      title: twitter
+    - icon: ti-github
+      link: '#'
+      title: github
+    - icon: ti-linkedin
+      link: '#'
+      title: linkedin
+    - icon: ti-book
+      link: 'https://scholar.google.ca/citations?hl=en&user=ZTnPBaoAAAAJ&view_op=list_works&sortby=pubdate'
+      title: google scholar
+menu:
+  footer:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Posts
+      weight: 2
+    - URL: contact
+      name: Contact
+      weight: 3
+  main:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Posts
+      weight: 2
+
