@@ -5,6 +5,9 @@ theme: liva-hugo
 summaryLength: '10'
 paginate: 6
 disqusShortname: 'tanya_murphy'
+enableEmoji: true
+permalinks: 
+  posts: /:year/:month/:day/:slug/
 outputs:
   home:
     - HTML
