@@ -22,6 +22,7 @@ params:
   home: Home
   #location: Montreal, Canada
   logo: images/logo_vsmall.png
+  favicon: images/logo_vsmall.png
   #mobile: 
   newsletter:
     content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
