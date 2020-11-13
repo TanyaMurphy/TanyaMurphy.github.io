@@ -7,7 +7,7 @@ paginate: 6
 disqusShortname: 'tanya_murphy'
 enableEmoji: true
 permalinks: 
-  posts: /:year/:month/:day/:slug/
+  blog: /:year/:month/:day-:slug/
 outputs:
   home:
     - HTML
