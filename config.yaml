@@ -22,7 +22,7 @@ params:
   home: Home
   #location: Montreal, Canada
   logo: images/logo_vsmall.png
-  #mobile: 0124857985320
+  #mobile: 
   newsletter:
     content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
