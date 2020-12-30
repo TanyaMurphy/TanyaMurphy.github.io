@@ -14,3 +14,6 @@ In my research projects, I have used longitudinal models, psychometric and bioma
 I'm not at liberty to share the data I used for most projects so I repeated some of the analysis methods with open data sources on this blog.
 
 Recent substantive topics have been in child health and development, specifically adiposity and obesity, eating attitudes, behavioural self-regulation, childcare and social determinants of health. Many years ago, I did HIV and hepatitis C clinical epidemiology.
+
+The website was built with [R for Windows](https://cran.r-project.org/), the [blogdown package](https://bookdown.org/yihui/blogdown/), and [Hugo](https://gohugo.io/) using the [RStudio editor](https://rstudio.com/products/rstudio/download/#download).
+
